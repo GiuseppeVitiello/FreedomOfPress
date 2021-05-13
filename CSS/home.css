@@ -1,3 +1,97 @@
+body {
+    font-family: Verdana;
+    overflow-x: hidden;
+}
+
+/* Image and Map related */
+ 
+img {
+    margin: 10px;
+}
+
 #mainMap {
+    width: 85%;
+    margin-bottom: 50px;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Text related */
+
+#title {
+    font-size: 20pt;
+    text-align: center;
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+    
+    width: 75%;
+}
+
+#intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    font-size: 14pt;
+
+    text-align: justify;
+    text-justify: inter-word;
+
+    width: 75%;
+}
+
+span {
+    font-weight: bold;
+    font-size: 18pt;
+    margin-left: 10%;
+}
+
+.ranking {
+    font-size: 10pt;
+    margin-left: 5%
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+
+    font-size: 13pt;
+
+    text-align: justify;
+    text-justify: inter-word;
+
+    width: 85%;
+}
+
+/* Modal */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
     width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    margin: auto auto;
+    padding: 30px 0;
+    border-radius: 15px;
+    width: 65%;
+    height: fit-content;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 }
