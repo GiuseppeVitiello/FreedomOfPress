@@ -15,11 +15,11 @@ document.addEventListener('keyup', (event) => {
 });
 
 document.addEventListener('swiped-right', function() {
-    plusSlides(1);
+    plusSlides(-1);
 });
 
 document.addEventListener('swiped-left', function() {
-    plusSlides(-1);
+    plusSlides(1);
 });
 
 function plusSlides(n) {
